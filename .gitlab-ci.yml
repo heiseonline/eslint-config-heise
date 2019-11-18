@@ -1,0 +1,9 @@
+image: node:lts-alpine
+
+publish:
+  only:
+    - tags
+  tags:
+    - docker
+  script:
+    - yarn publish

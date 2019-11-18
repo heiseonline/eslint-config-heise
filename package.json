@@ -1,0 +1,22 @@
+{
+  "name": "@heise/eslint-config",
+  "version": "5.0.4",
+  "main": "index.js",
+  "repository": "git@github.com:heiseonline/eslint-config-heise.git",
+  "author": "Philipp Busse <pmb@heise.de>",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "eslint": ">= 6",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {}
+}
