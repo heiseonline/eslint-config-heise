@@ -29,7 +29,7 @@ module.exports = {
     'sonarjs/no-duplicate-string': ['error', 5],
 
     // https://github.com/expressjs/generator/issues/78
-    'no-unused-vars': ['error', { 'argsIgnorePattern': 'next' }],
+    'no-unused-vars': ['error', { 'argsIgnorePattern': '^(_|next)' }],
     'no-magic-numbers': ['error', {
       ignoreArrayIndexes: true,
       ignore: [
