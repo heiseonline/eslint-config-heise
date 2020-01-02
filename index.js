@@ -48,7 +48,7 @@ module.exports = {
   }],
   env: {
     node: true,
-    'jest/globals': true,
+    jest: true,
     es6: true
   }
 }
