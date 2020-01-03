@@ -23,6 +23,10 @@ module.exports = {
       max: 5
     }],
     'max-depth': ['error', 3],
+    'prefer-const': ['error',{
+      destructuring: 'all',
+      ignoreReadBeforeAssign: true,
+    }],
     'consistent-return': ['error'],
     'no-warning-comments': ['warn'],
     'sonarjs/cognitive-complexity': ['error', 5],
