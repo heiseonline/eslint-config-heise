@@ -43,6 +43,9 @@ module.exports = {
         ...statusCodes
       ]
     }],
+    'no-useless-concat': ['error'],
+    'prefer-template': ['error'],
+    'no-nested-ternary': ['error'],
   },
   overrides: [{
     files: ['*.test.js', 'test/'],
