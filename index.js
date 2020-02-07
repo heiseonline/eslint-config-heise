@@ -46,6 +46,7 @@ module.exports = {
     'no-useless-concat': ['error'],
     'prefer-template': ['error'],
     'no-nested-ternary': ['error'],
+    'no-var': ['error'],
   },
   overrides: [{
     files: ['*.test.js', 'test/'],
