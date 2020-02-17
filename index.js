@@ -4,7 +4,7 @@ const statusCodes = Object.keys(STATUS_CODES).map(s => parseInt(s, 10))
 
 module.exports = {
   root: true,
-  plugins: ['prettier', 'sonarjs', 'security', 'jest'],
+  plugins: ['prettier', 'sonarjs', 'security', 'jest', 'no-loops'],
   extends: [
     'eslint:recommended',
     'plugin:security/recommended',
@@ -47,6 +47,7 @@ module.exports = {
     'prefer-template': ['error'],
     'no-nested-ternary': ['error'],
     'no-var': ['error'],
+    'no-loops/no-loops': ['error'],
   },
   overrides: [{
     files: ['*.test.js', 'test/'],
