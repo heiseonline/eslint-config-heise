@@ -27,7 +27,7 @@ module.exports = {
       destructuring: 'all',
       ignoreReadBeforeAssign: true,
     }],
-    'consistent-return': ['error'],
+    'consistent-return': 'error',
     'no-warning-comments': ['warn'],
     'sonarjs/cognitive-complexity': ['error', 5],
     'sonarjs/no-duplicate-string': ['error', 5],
@@ -43,16 +43,16 @@ module.exports = {
         ...statusCodes
       ]
     }],
-    'no-useless-concat': ['error'],
-    'prefer-template': ['error'],
-    'no-nested-ternary': ['error'],
-    'no-var': ['error'],
-    'no-loops/no-loops': ['error'],
+    'no-useless-concat': 'error',
+    'prefer-template': 'error',
+    'no-nested-ternary': 'error',
+    'no-var': 'error',
+    'no-loops/no-loops': 'error',
   },
   overrides: [{
     files: ['*.test.js', 'test/'],
     rules: {
-      'no-magic-numbers': 0
+      'no-magic-numbers': 'off',
     }
   }],
   env: {
