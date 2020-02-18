@@ -58,6 +58,7 @@ module.exports = {
     'no-loops/no-loops': 'error',
     'toplevel/no-toplevel-side-effect': 'error',
     'unicorn/prevent-abbreviations': 'off',
+    'dot-notation': 'error',
   },
   overrides: [{
     files: ['*.test.js', '**/test/**', '**/__mocks__/**'],
