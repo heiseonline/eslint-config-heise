@@ -60,6 +60,9 @@ module.exports = {
     'unicorn/prevent-abbreviations': 'off',
     'dot-notation': 'error',
     'no-extra-semi': 'off',
+
+    // IE11 Does not support `Number` static props
+    'unicorn/prefer-number-properties': 'off'
   },
   overrides: [{
     files: ['*.test.js', '**/test/**', '**/__mocks__/**'],
