@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     'security/detect-object-injection': 'off',
     'no-console': ['warn', { 'allow': ['warn', 'error'] }],
-    'prettier/prettier': ['error', {
+    'prettier/prettier': ['warn', {
       semi: false,
       singleQuote: true,
       trailingComma: 'es5',
