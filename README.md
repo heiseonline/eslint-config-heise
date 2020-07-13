@@ -1,19 +1,19 @@
 # @heise/eslint-config
 
-Die eslint-Konfiguration von Heise.
+The Heise eslint configuration.
 
 ```sh
 $ cd my-project
-$ yarn add --dev @heise/eslint-config #oder mit npm
+$ yarn add --dev @heise/eslint-config # Or with npm
 $ npm install --save-dev @heise/eslint-config
 ```
 
-`my-project/.eslintrc.js` bearbeiten:
+Edit `my-project/.eslintrc.js`:
 
 ```js
 module.exports = {
   extends: '@heise',
-  // Optional: Weitere Konfiguration, z.B.:
+  // Optional: Other configurations, for exmaple:
   // parser: 'babel-eslint',
 }
 ```
