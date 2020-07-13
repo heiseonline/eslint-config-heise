@@ -13,7 +13,7 @@ Edit `my-project/.eslintrc.js`:
 ```js
 module.exports = {
   extends: '@heise',
-  // Optional: Other configurations, for exmaple:
+  // Optional: Other configurations, for example:
   // parser: 'babel-eslint',
 }
 ```
