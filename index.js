@@ -64,7 +64,8 @@ module.exports = {
     // IE11 Does not support `Number` static props
     'unicorn/prefer-number-properties': 'off',
 
-    'unicorn/prefer-set-has': 'off'
+    'unicorn/prefer-set-has': 'off',
+    'unicorn/no-useless-undefined': 'off',
   },
   overrides: [{
     files: ['*.test.js', '**/test/**', '**/__mocks__/**'],
