@@ -15,17 +15,20 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "eslint": "^7.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.10.0",
-    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-toplevel": "^1.0.1",
-    "eslint-plugin-unicorn": "^19.0.1",
-    "prettier": "^2.0.5"
+    "eslint-plugin-unicorn": "^22.0.0",
+    "prettier": "^2.1.2"
   },
   "devDependencies": {}
 }
