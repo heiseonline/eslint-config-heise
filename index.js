@@ -162,7 +162,7 @@ module.exports = {
     },
     // Top Level
     {
-      files: ['main.ts', 'www.ts'],
+      files: ['**/main.ts', '**/www.ts'],
       rules: {
         'toplevel/no-toplevel-side-effect': 'off',
       },
