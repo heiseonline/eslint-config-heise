@@ -157,7 +157,8 @@ module.exports = {
       },
       rules: {
         'no-magic-numbers': 'off',
-        'toplevel/no-toplevel-side-effect': 'off',
+        'node/no-unpublished-import': 'off',
+        'toplevel/no-toplevel-side-effect': 'off'
       },
     },
     // Top Level
