@@ -158,7 +158,8 @@ module.exports = {
       rules: {
         'no-magic-numbers': 'off',
         'node/no-unpublished-import': 'off',
-        'toplevel/no-toplevel-side-effect': 'off'
+        'toplevel/no-toplevel-side-effect': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off'
       },
     },
     // Top Level
