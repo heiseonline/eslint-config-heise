@@ -114,7 +114,6 @@ module.exports = {
       {
         checkShorthandImports: true,
         checkShorthandProperties: true,
-        checkProperties: true,
         checkVariables: true,
         checkFilenames: false,
         checkProperties: false,
