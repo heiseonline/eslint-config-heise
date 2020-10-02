@@ -26,7 +26,6 @@ module.exports = {
     'security',
     'node',
     'jest',
-    'react',
     'promise',
     'toplevel',
   ],
@@ -41,7 +40,6 @@ module.exports = {
     'plugin:node/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
-    'plugin:react/recommended',
     'plugin:promise/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -52,11 +50,6 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: true,
     ecmaFeatures: {
       jsx: false,
-    },
-  },
-  settings: {
-    react: {
-      version: 'detect',
     },
   },
   rules: {
@@ -144,6 +137,13 @@ module.exports = {
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
+        },
+      },
+      plugins: ['react'],
+      extends: ['plugin:react/recommended'],
+      settings: {
+        react: {
+          version: 'detect',
         },
       },
     },
