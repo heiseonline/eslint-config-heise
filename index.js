@@ -23,7 +23,6 @@ module.exports = {
     'unicorn',
     'security',
     'node',
-    'jest',
     'promise',
     'toplevel',
   ],
@@ -36,8 +35,6 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:security/recommended',
     'plugin:node/recommended',
-    'plugin:jest/recommended',
-    'plugin:jest/style',
     'plugin:promise/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -172,6 +169,8 @@ module.exports = {
       env: {
         jest: true,
       },
+      plugins: ['jest'],
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
       rules: {
         'no-magic-numbers': 'off',
         'node/no-unpublished-import': 'off',
