@@ -120,6 +120,12 @@ module.exports = {
         checkProperties: false,
       },
     ],
+    'node/no-extraneous-import': [
+      'error',
+      {
+        allowModules: ['expect-puppeteer'],
+      },
+    ],
   },
   overrides: [
     // TypeScript
@@ -171,7 +177,7 @@ module.exports = {
         'no-magic-numbers': 'off',
         'node/no-unpublished-import': 'off',
         'toplevel/no-toplevel-side-effect': 'off',
-        '@typescript-eslint/ban-ts-comment': 'off'
+        '@typescript-eslint/ban-ts-comment': 'off',
       },
     },
     // Top Level
