@@ -117,6 +117,7 @@ module.exports = {
         checkProperties: true,
         checkVariables: true,
         checkFilenames: false,
+        checkProperties: false,
       },
     ],
   },
