@@ -1,3 +1,15 @@
+const fs = require('fs')
+const path = require('path')
+
+const projectPath = fs.realpathSync(process.cwd())
+
+let prettierConfig = {}
+try {
+  prettierConfig = require(path.join(projectPath, '.prettierrc'))
+} catch (error) {
+  prettierConfig = require('./.prettierrc')
+}
+
 module.exports = {
   root: true,
   env: {
@@ -50,6 +62,7 @@ module.exports = {
   rules: {
     'security/detect-object-injection': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'prettier/prettier': ['warn', prettierConfig],
     complexity: [
       'error',
       {
