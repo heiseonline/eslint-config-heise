@@ -68,7 +68,8 @@ module.exports = {
     'consistent-return': 'error',
     'no-warning-comments': ['warn'],
     // https://github.com/expressjs/generator/issues/78
-    'no-unused-vars': ['error', { argsIgnorePattern: '^(_|next)' }],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^(_|next)' }],
     'no-magic-numbers': [
       'error',
       {
