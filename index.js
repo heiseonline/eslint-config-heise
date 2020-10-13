@@ -107,16 +107,7 @@ module.exports = {
     'unicorn/no-useless-undefined': 'off',
     'unicorn/no-nested-ternary': 'off',
     'unicorn/number-literal-case': 'off',
-    'unicorn/prevent-abbreviations': [
-      'warn',
-      {
-        checkShorthandImports: true,
-        checkShorthandProperties: true,
-        checkVariables: true,
-        checkFilenames: false,
-        checkProperties: false,
-      },
-    ],
+    'unicorn/prevent-abbreviations': 'off',
     'node/no-extraneous-import': [
       'error',
       {
