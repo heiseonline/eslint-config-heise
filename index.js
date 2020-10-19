@@ -57,6 +57,7 @@ module.exports = {
         max: 5,
       },
     ],
+    'curly': 'error',
     'max-depth': ['error', 3],
     'prefer-const': [
       'error',
