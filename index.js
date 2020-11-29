@@ -109,6 +109,7 @@ module.exports = {
     'unicorn/no-nested-ternary': 'off',
     'unicorn/number-literal-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-fn-reference-in-iterator': 'off',
     'node/no-extraneous-import': [
       'error',
       {
