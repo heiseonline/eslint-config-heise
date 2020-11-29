@@ -110,6 +110,7 @@ module.exports = {
     'unicorn/number-literal-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/no-fn-reference-in-iterator': 'off',
+    'unicorn/no-null': 'off',
     'node/no-extraneous-import': [
       'error',
       {
