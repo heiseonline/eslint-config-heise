@@ -25,7 +25,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-sonarjs": "^0.6.0",
     "eslint-plugin-toplevel": "^1.0.1",
     "eslint-plugin-unicorn": "^23.0.0",
     "prettier": "^2.1.2"
