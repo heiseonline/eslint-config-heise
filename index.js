@@ -111,6 +111,8 @@ module.exports = {
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/no-fn-reference-in-iterator': 'off',
     'unicorn/no-null': 'off',
+    'unicorn/no-array-for-each': 'off',
+    'unicorn/no-array-callback-reference': 'off',
     'node/no-extraneous-import': [
       'error',
       {
