@@ -113,6 +113,7 @@ module.exports = {
     'unicorn/no-null': 'off',
     'unicorn/no-array-for-each': 'off',
     'unicorn/no-array-callback-reference': 'off',
+    'unicorn/prefer-node-protocol': 'off',
     'node/no-extraneous-import': [
       'error',
       {
