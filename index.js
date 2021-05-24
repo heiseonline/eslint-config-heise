@@ -114,6 +114,7 @@ module.exports = {
     'unicorn/no-array-for-each': 'off',
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-module': 'off',
     'node/no-extraneous-import': [
       'error',
       {
