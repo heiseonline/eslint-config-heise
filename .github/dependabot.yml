@@ -1,0 +1,77 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  labels:
+  - dependencies
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 7.2.0
+    - 8.0.0
+    - 8.1.0
+    - 8.2.0
+  - dependency-name: eslint-plugin-jest
+    versions:
+    - 24.1.5
+    - 24.1.8
+    - 24.2.0
+    - 24.2.1
+    - 24.3.1
+    - 24.3.2
+    - 24.3.4
+    - 24.3.5
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.19.0
+    - 4.20.0
+    - 4.21.0
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.19.0
+    - 4.20.0
+    - 4.21.0
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.1
+  - dependency-name: eslint-plugin-unicorn
+    versions:
+    - 27.0.0
+    - 28.0.0
+    - 28.0.1
+    - 28.0.2
+  - dependency-name: eslint-plugin-sonarjs
+    versions:
+    - 0.6.0
+  - dependency-name: eslint-plugin-promise
+    versions:
+    - 4.3.1
