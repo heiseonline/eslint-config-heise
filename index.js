@@ -93,7 +93,7 @@ module.exports = {
         tryExtensions: ['.js', '.json', '.node', '.jsx', '.ts', '.tsx'],
       },
     ],
-    'sonarjs/cognitive-complexity': ['error', 5],
+    'sonarjs/cognitive-complexity': ['error', 6],
     'sonarjs/no-duplicate-string': ['error', 5],
     'toplevel/no-toplevel-side-effect': 'error',
     '@typescript-eslint/no-extra-semi': 'off',
