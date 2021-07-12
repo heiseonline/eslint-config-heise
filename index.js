@@ -51,12 +51,7 @@ module.exports = {
     'security/detect-object-injection': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'prettier/prettier': ['warn', prettierConfig],
-    complexity: [
-      'error',
-      {
-        max: 5,
-      },
-    ],
+    complexity: 'off',
     'curly': 'error',
     'max-depth': ['error', 3],
     'prefer-const': [
