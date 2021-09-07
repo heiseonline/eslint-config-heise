@@ -42,6 +42,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module',
     project: 'tsconfig.json',
+    extraFileExtensions: ['.mjs'],
     warnOnUnsupportedTypeScriptVersion: true,
     ecmaFeatures: {
       jsx: false,
