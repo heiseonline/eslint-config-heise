@@ -15,11 +15,11 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
-    "eslint": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jest": "^25.0.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.0",
@@ -27,7 +27,7 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.10.0",
     "eslint-plugin-toplevel": "^1.0.1",
-    "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-unicorn": "^37.0.0",
     "prettier": "^2.1.2"
   },
   "devDependencies": {}
