@@ -590,9 +590,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.3.857:
-  version "1.3.865"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.865.tgz#fae7325066595d4ab98e21533b2c276b103c3138"
-  integrity sha512-okGcCKfihgGlaROMFNPQ6eaU3bk9Xa68rLYSnVD2PyIqM5B/vyQoXCpB3p1HI3AXio097ROVBlSO4JZVilUWuA==
+  version "1.3.867"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.867.tgz#7cb484db4b57c28da0b65c51e434c3a1f3f9aa0d"
+  integrity sha512-WbTXOv7hsLhjJyl7jBfDkioaY++iVVZomZ4dU6TMe/SzucV6mUAs2VZn/AehBwuZMiNEQDaPuTGn22YK5o+aDw==
 
 enquirer@^2.3.5:
   version "2.3.6"
@@ -740,9 +740,9 @@ eslint-plugin-toplevel@^1.0.1:
   integrity sha512-qSJFK86cy0VZ9gSPE8ux9h6Qe8gG5/Kif9LDq2Ve1w8/JPdNXle9jzDaHO1sNeciJKwRo3nnsV4XysXIr9lPsA==
 
 eslint-plugin-unicorn@^37.0.0:
-  version "37.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-37.0.0.tgz#203d4de3864d5f960b2351bcfa8bd9be3f3a1b97"
-  integrity sha512-wv4UNhjNUYPUXMcMS4bMcHtEK5EvC9C2OpJNtJjuCh9QmHiOgYcpSCgLy5GvUA5xbEqP2y8WLO/ABUX3Qw6q5w==
+  version "37.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-37.0.1.tgz#a2292dc302ffc0be1791e6ebbb4ae93242833f11"
+  integrity sha512-E1jq5u9ojnadisJcPi+hMXTGSiIzkIUMDvWsBudsCGXvKUB2aNSU2TcfyW2/jAS5A4ryBXfzxLykMxX1EdluSQ==
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     ci-info "^3.2.0"
