@@ -30,7 +30,14 @@
     "eslint-plugin-unicorn": "^37.0.0",
     "prettier": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/npm": "^8.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.2",
+    "semantic-release": "^18.0.0"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   }

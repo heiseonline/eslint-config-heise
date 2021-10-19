@@ -2,8 +2,8 @@ name: Publish eslint-config-heise
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - master
 
 jobs:
   release:
@@ -32,11 +32,8 @@ jobs:
       - name: Run install
         run: pnpm install --frozen-lockfile
 
-      - name: Build
-        run: pnpm run build
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-        run: pnpm release
+        run: pnpm semantic-release
