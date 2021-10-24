@@ -15,26 +15,26 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-jest": "^25.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.10.0",
     "eslint-plugin-toplevel": "^1.0.1",
-    "eslint-plugin-unicorn": "^37.0.0",
-    "prettier": "^2.1.2"
+    "eslint-plugin-unicorn": "^37.0.1",
+    "prettier": "^2.4.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/git": "^10.0.0",
-    "@semantic-release/npm": "^8.0.1",
+    "@semantic-release/npm": "^8.0.2",
     "@semantic-release/release-notes-generator": "^10.0.2",
     "semantic-release": "^18.0.0",
     "typescript": "^4.4.4"
