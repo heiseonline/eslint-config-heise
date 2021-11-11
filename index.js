@@ -67,16 +67,12 @@ module.exports = {
     // https://github.com/expressjs/generator/issues/78
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^(_|next)' }],
-    'no-magic-numbers': [
+    'no-magic-numbers': 'off',
+    '@typescript-eslint/no-magic-numbers': [
       'error',
       {
         ignoreArrayIndexes: true,
         ignore: [-1, 0, 1],
-      },
-    ],
-    '@typescript-eslint/no-magic-numbers': [
-      'error',
-      {
         ignoreEnums: true,
         ignoreNumericLiteralTypes: true,
         ignoreReadonlyClassProperties: true,
