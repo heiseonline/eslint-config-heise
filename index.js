@@ -74,6 +74,14 @@ module.exports = {
         ignore: [-1, 0, 1],
       },
     ],
+    '@typescript-eslint/no-magic-numbers': [
+      'error',
+      {
+        ignoreEnums: true,
+        ignoreNumericLiteralTypes: true,
+        ignoreReadonlyClassProperties: true,
+      }
+    ],
     'no-useless-concat': 'error',
     'prefer-template': 'error',
     'no-nested-ternary': 'error',
