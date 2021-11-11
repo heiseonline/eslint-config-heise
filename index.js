@@ -171,7 +171,7 @@ module.exports = {
       plugins: ['jest'],
       extends: ['plugin:jest/recommended', 'plugin:jest/style'],
       rules: {
-        'no-magic-numbers': 'off',
+        '@typescript-eslint/no-magic-numbers': 'off',
         'node/no-unpublished-import': 'off',
         'toplevel/no-toplevel-side-effect': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
