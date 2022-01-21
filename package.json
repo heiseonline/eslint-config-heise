@@ -15,11 +15,11 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "@typescript-eslint/parser": "^5.9.1",
-    "eslint": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^25.3.4",
+    "eslint-plugin-jest": "^25.7.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
@@ -37,7 +37,7 @@
     "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^18.0.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5"
   },
   "scripts": {
     "//preinstall": "npx only-allow pnpm"
