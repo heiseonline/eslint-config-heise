@@ -15,20 +15,20 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.12.0",
     "eslint-plugin-toplevel": "^1.0.1",
     "eslint-plugin-unicorn": "^37.0.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
