@@ -1,6 +1,6 @@
 {
   "name": "@heise/eslint-config",
-  "version": "20.0.30",
+  "version": "20.0.31",
   "main": "index.js",
   "repository": {
     "type": "git",
