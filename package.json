@@ -27,7 +27,7 @@
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-sonarjs": "^0.16.0",
     "eslint-plugin-toplevel": "^1.0.1",
-    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-unicorn": "^45.0.0",
     "prettier": "^2.7.1"
   },
   "devDependencies": {
