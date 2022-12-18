@@ -15,11 +15,11 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
-    "eslint": "^8.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-jest": "^27.1.7",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
@@ -28,16 +28,16 @@
     "eslint-plugin-sonarjs": "^0.16.0",
     "eslint-plugin-toplevel": "^1.0.1",
     "eslint-plugin-unicorn": "^37.0.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^18.0.1",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.4"
   },
   "scripts": {
     "//preinstall": "npx only-allow pnpm"
