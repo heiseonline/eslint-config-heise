@@ -26,8 +26,8 @@ jobs:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
 
-      - name: Install npm@7
-        run: npm add --global npm@7
+      - name: Install pnpm@7
+        run: npm add --global pnpm@7
 
       - name: Run install
         run: pnpm install --frozen-lockfile
