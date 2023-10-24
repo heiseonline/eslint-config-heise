@@ -3,13 +3,6 @@ const path = require('path')
 
 const projectPath = fs.realpathSync(process.cwd())
 
-let prettierConfig = {}
-try {
-  prettierConfig = require(path.join(projectPath, '.prettierrc'))
-} catch (error) {
-  prettierConfig = require('./.prettierrc')
-}
-
 module.exports = {
   root: true,
   env: {
@@ -17,7 +10,6 @@ module.exports = {
     jest: false,
   },
   plugins: [
-    'prettier',
     '@typescript-eslint',
     'sonarjs',
     'unicorn',
@@ -28,7 +20,6 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:sonarjs/recommended',
@@ -51,9 +42,8 @@ module.exports = {
   rules: {
     'security/detect-object-injection': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'prettier/prettier': ['warn', prettierConfig],
     complexity: 'off',
-    'curly': 'error',
+    curly: 'error',
     'max-depth': ['error', 3],
     'prefer-const': [
       'error',
@@ -66,7 +56,10 @@ module.exports = {
     'no-warning-comments': ['warn'],
     // https://github.com/expressjs/generator/issues/78
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^(_|next)' }],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { argsIgnorePattern: '^(_|next)' },
+    ],
     'no-magic-numbers': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
@@ -76,7 +69,7 @@ module.exports = {
         ignoreEnums: true,
         ignoreNumericLiteralTypes: true,
         ignoreReadonlyClassProperties: true,
-      }
+      },
     ],
     'no-useless-concat': 'error',
     'prefer-template': 'error',
