@@ -92,7 +92,7 @@ module.exports = {
       },
     ],
     'sonarjs/cognitive-complexity': ['error', 6],
-    'sonarjs/no-duplicate-string': ['error', 5],
+    'sonarjs/no-duplicate-string': ['error', {'threshold': 5}],
     'toplevel/no-toplevel-side-effect': 'error',
     '@typescript-eslint/no-extra-semi': 'off',
     // IE11 Does not support `Number` static props
